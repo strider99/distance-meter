@@ -28,8 +28,8 @@ function showPosition(position){
 
 function showPositionUpdate (position){
 	
-	document.getElementById("currentLat").innerHTML = position.coords.latitude;
-	document.getElementById("currentLon").innerHTML = position.coords.longitude;
+	document.getElementById("currentLat").innerHTML = "Lat - " + position.coords.latitude;
+	document.getElementById("currentLon").innerHTML = "Lon - " + position.coords.longitude;
 	
 	document.getElementById("distance").innerHTML = calculateDistance(startPos.coords.latitude, startPos.coords.longitude, position.coords.latitude, position.coords.longitude);
 
