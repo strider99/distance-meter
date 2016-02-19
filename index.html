@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400italic' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>Distance meter</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div id="container">
+
+		<div class="jumbotron">
+
+			<h1 id="title">Distance meter.<span id="tag">Train hard. Run hard.</span></h1>
+			<p class="text-center">
+			<button id="startBtn" onclick="startTracking()" class="text-center btn btn-success btn-lg">Start Tracking</button>
+			<button id="stopBtn" onclick="stopTracking()" class="text-center btn btn-danger btn-lg">Stop Tracking</button>
+		</p>
+
+		</div>
+
+		\
+		<p>
+			<strong>Starting position</strong>
+			<br />
+			<span id="startLat">Acquiring latitude</span>
+			<span id="startLon">Acquiring longitude</span>
+		</p>
+		<p>
+			<strong>Current position</strong>
+			<br />
+			<span id="currentLat">Acquiring latitude</span>
+			<span id="currentLon">Acquiring longitude</span>
+		</p>
+		<p>
+			<strong>Distance</strong>
+			<br />
+			<span id="distance">0</span>kilometres
+		</p>
+		<p>
+			<button id="startBtn" onclick="startTracking()">Start Tracking</button>
+			<button id="stopBtn" onclick="stopTracking()">Stop Tracking</button>
+		</p>
+		<footer>
+			<span> &copy; omprakash panigrahi 2016 </span>
+		</footer>
+	</div>
+
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.jumbotron {
+	 
+	
+	
+	background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(48, 118, 158, .50), 
+      rgba(48, 118, 158, .50)
+		
+/*		91, 144, 168, .50*/
+    ),
+		url(img/run.jpg);
+    /* bottom, image */
+
+	/* bottom, image */
+	background-size: cover;
+	height: 600px;
+}
+
+#title {
+	color: white;
+	padding: 1em;
+}
+#tag{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: .6em;
+}
