@@ -15,7 +15,7 @@
 
 	/* bottom, image */
 	background-size: cover;
-	height: 600px;
+	height: 650px;
 }
 
 #title {
@@ -25,4 +25,11 @@
 #tag{
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: .6em;
+}
+.subheading {
+	padding: 0.5em;
+	border: 1px solid white;
+}
+.default-font {
+	color: white;
 }

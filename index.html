@@ -18,37 +18,57 @@
 
 			<h1 id="title">Distance meter.<span id="tag">Train hard. Run hard.</span></h1>
 			<p class="text-center">
-			<button id="startBtn" onclick="startTracking()" class="text-center btn btn-success btn-lg">Start Tracking</button>
-			<button id="stopBtn" onclick="stopTracking()" class="text-center btn btn-danger btn-lg">Stop Tracking</button>
-		</p>
+				<button id="startBtn" onclick="startTracking()" class="text-center btn btn-success btn-lg">Start Tracking</button>
+				<button id="stopBtn" onclick="stopTracking()" class="text-center btn btn-danger btn-lg">Stop Tracking</button>
+			</p>
+			<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p class="default-font">
+							<span class="subheading">Starting position <span class="glyphicon glyphicon-flag"></span></span>
+							<br />
+							<br/>
+							<span id="startLat">Latitude - </span>
+							<br/>
+							<span id="startLon">Longitude - </span>
+						</p>
+
+					</div>
+					
+					<div class="col-md-4 col-md-offset-1">
+						<p class="default-font">
+							<span class="subheading">Current position </span>
+							<br />
+							<br/>
+							<span id="currentLat">Latitude - </span>
+							<br/>
+							<span id="currentLon">Longitude - </span>
+						</p>
+
+					</div>
+					
+					<div class="col-md-3">
+						<p class="default-font">
+							<span class="subheading">Distance covered <span class="glyphicon glyphicon-road"></span></span>
+							<br />
+							<br>
+							<span id="distance"> 0 </span> kilometres
+						</p>
+
+					</div>
+				</div>
+			</div>
+
 
 		</div>
 
-		\
-		<p>
-			<strong>Starting position</strong>
-			<br />
-			<span id="startLat">Acquiring latitude</span>
-			<span id="startLon">Acquiring longitude</span>
-		</p>
-		<p>
-			<strong>Current position</strong>
-			<br />
-			<span id="currentLat">Acquiring latitude</span>
-			<span id="currentLon">Acquiring longitude</span>
-		</p>
-		<p>
-			<strong>Distance</strong>
-			<br />
-			<span id="distance">0</span>kilometres
-		</p>
-		<p>
-			<button id="startBtn" onclick="startTracking()">Start Tracking</button>
-			<button id="stopBtn" onclick="stopTracking()">Stop Tracking</button>
-		</p>
-		<footer>
-			<span> &copy; omprakash panigrahi 2016 </span>
-		</footer>
+
+
+		
+			
+
+		
 	</div>
 
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
